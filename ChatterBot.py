@@ -15,9 +15,9 @@ api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 # Create a function that tweets
 
 quote_list = [
-    "Quote 11111",
-    "Quote 21111",
-    "Quote 31111"]
+    "my q1",
+    "my q2",
+    "my q1"]
 
 # Create function for tweeting
 def QuoteItUp(quote_num):
